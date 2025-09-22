@@ -9,17 +9,13 @@
   --secondary-color: #2D556C;  /* Deep Blue */
   --accent1-color: #E6AC27;   /* Golden Yellow */
   --accent2-color: #D9C3A9;   /* Sand */
-  --heading-font: "Sans-serif", "Georgia", serif;
+  --heading-font:  "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }   
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color)
-}
-
-li {
-    color:black;
+    color: var(--accent2-color);
 }
 
 body {
@@ -57,14 +53,14 @@ nav, p, section, article {
 }
 
 h1 {
-    position: top;
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color:azure
+    color:azure;
 }
 
 .hero article {
