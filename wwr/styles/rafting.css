@@ -5,10 +5,10 @@
 }
 
 :root {
-  --primary-color: #B3583C;    /* Canyon Red */
-  --secondary-color: #204052;  /* Blue */
-  --accent1-color: #E6AC27;   /* Golden Yellow */
-  --accent2-color: #D9C3A9;   /* Sand */
+  --primary-color: #8B2E1F;  
+  --secondary-color: #1F3B4D; 
+  --accent1-color: #F4B400;   
+  --accent2-color: #F1E7D0;   
   --heading-font:  Georgia, serif;
   --body-font: Arial, Helvetica, sans-serif;
 }   
@@ -76,28 +76,18 @@ nav, p, section, article {
 }
 
 h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color:azure;
-}
-
-.hero h1 {
-  color: white;
 }
 
 .hero h1 {
   position: absolute;
-  top: 20px;
+  top: 6px;
   left: 0;
   width: 100%;
   text-align: center;
   background-color: rgba(230, 172, 39, 0.8);
-  padding: 16px;
+  padding: 2px;
+  color: var(--secondary-color);
 }
 
 .hero article {
@@ -108,7 +98,7 @@ h1 {
   padding: 10px;
   background-color: var(--secondary-color);
   opacity: 0.9;
-  color: var(--accent2-color);
+  color: #ffffff;
 }
 
 .hero article img {
@@ -116,16 +106,38 @@ h1 {
     width: 90px;
 }
 
+.history h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
 .history {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 20px;
+}
+
+.history img,
+.history p {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .history img {
   max-width: 300px;
   height: auto;
-  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.history p {
+  max-width: 500px;
+  text-align: left;
+}
+
+.history p,
+.history img {
+  display: inline-block;
 }
 
 .adventure-images {
@@ -134,6 +146,13 @@ h1 {
   gap: 15px;
   margin-top: 20px;
 }
+
+.adventure h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
 
 .adventure-images figure {
   text-align: center;
@@ -169,3 +188,19 @@ footer {
   width: 30px;
   height: 30px;
 }
+
+figcaption {
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--secondary-color); 
+  margin-top: 8px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
