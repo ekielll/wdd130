@@ -6,7 +6,7 @@
 
 :root {
   --primary-color: #B3583C;    /* Canyon Red */
-  --secondary-color: #2D556C;  /* Deep Blue */
+  --secondary-color: #204052;  /* Blue */
   --accent1-color: #E6AC27;   /* Golden Yellow */
   --accent2-color: #D9C3A9;   /* Sand */
   --heading-font:  Georgia, serif;
@@ -21,8 +21,7 @@ header {
 }
 
 .logo {
-    width: 100px;
-    height: auto;
+     max-height: 80px;
   }
 
 nav {
@@ -88,13 +87,16 @@ h1 {
 }
 
 .hero h1 {
+  color: white;
+}
+
+.hero h1 {
   position: absolute;
   top: 20px;
   left: 0;
   width: 100%;
   text-align: center;
   background-color: rgba(230, 172, 39, 0.8);
-  color: white;
   padding: 16px;
 }
 
@@ -115,15 +117,14 @@ h1 {
 }
 
 .history {
-  display: grid;
-  grid-template-columns: 300px 1fr; 
-  gap: 20px;
+  display: flex;
   align-items: center;
-  margin: 30px 0;
+  gap: 20px;
 }
 
 .history img {
-  width: 100%;
+  max-width: 300px;
+  height: auto;
   border-radius: 8px;
 }
 
