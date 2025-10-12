@@ -1,0 +1,84 @@
+body {
+    font-family: 'Courier New', monospace; 
+    margin: 20px; 
+    background-color: #f4f4f4; 
+    color: #333; 
+}
+
+h1 {
+    text-align: center;
+    color: black; 
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 8px;
+    font-weight: bold; 
+    color: #000000;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical; 
+}
+
+button[type="submit"] {
+    display: block; 
+    width: 100%; 
+    padding: 12px;
+    margin-top: 30px; 
+    background-color: #666; 
+    color: white; 
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+button[type="submit"] {
+    background-color: #001eff; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    color: #666;
+}
+
+fieldset > p {
+    background-color: #252525;
+    color: white;    
+    padding: 8px 10px;  
+    margin: 1px;
+    border-radius: 1px;
+    font-size: 0.9em;
+}
